@@ -1,0 +1,25 @@
+################################
+# TNS MongoDB Connection String
+################################
+#Connection Entry Format
+#environment;application name;server1,server2..;replicaset name;port;ldap [yes/no];dbuser [null in case of ldap=yes];ssl [yes/no];root ca certificate path;pem key certificate path
+#Sample:
+#test;appname;server1,server2,server3;rs0;27017;yes;null,no;null;null
+#
+################################
+#Non-Production
+################################
+#
+#App 1
+test;testapp;server1,server2,server3;rs0;27017;yes;null,no;null;null
+#
+#App 2
+dev;devapp;server1,server2,server3;rs0;27017;yes;null,no;null;null
+################################
+#Production
+################################
+#
+#App 1
+prod;prodapp1;server1,server2,server3;rs0;27017;yes;null,no;null;null
+#Law
+prod;prodapp2;server1,server2,server3;rs0;27017;yes;null,no;null;null
