@@ -1,6 +1,5 @@
 # mongodb_shell
 
-###################### MongoDB Shell 0.1 #######################################################
 Author: Fabio Miguel Blasak da Fonseca
 Description: A simple automation to provide centralized connection strings to help
              Mongo DBA's life easier.
