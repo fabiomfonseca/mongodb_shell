@@ -1,6 +1,5 @@
 # mongodb_shell
 
-Author: Fabio Miguel Blasak da Fonseca
 Description: A simple automation to provide centralized connection strings to help
              Mongo DBA's life easier.
              
